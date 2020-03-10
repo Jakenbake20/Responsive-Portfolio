@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(234,234,234);
+
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: white; 
+    background-color: teal;
+    margin: 20px 300px 50px 300px;
+    padding: 10px;
+    float: left;
+    
+
+    
+}
+
+h2 {
+    border-bottom: solid thin gray;
+    font-size: 24px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: teal;
+    background-color: white;
+    margin: 20px 300px 0px 300px;
+    padding: 20px;
+    float: left;
+    width: 57.3%;
+    padding-top: 40px;
+}
+
+p.maintext{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 60px;
+    padding-top: 20px;
+    float: left;
+       
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    float: right;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+.img1 {
+    overflow: auto;
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px; 
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    float: left;
+    width: 100%;
+    border-top: solid thick teal;
+}
+
+}
+nav.right{
+    border-right: solid thin black;
+
+}
+a {
+    color: gray;
+}
+.container {
+    margin-right: 300px;
+}
+
+
+form{ 
+    float: left;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    background-color: white;
+}
+input {
+    float: left;
+    
+}
+
+p.Message {
+    float: left;
+}
+
+    
+    .row{
+        width: 700px;
+        display:blcok;
+        float:none;
+    }
+
+@media (max-width: 940px) {
+    h1 {
+        position: static;
+        width: 100%
+    }
+    h2 {
+        position: relative;
+    }
+
+}
+@media (max-width: 768px) {
+    h1 {
+        position: static;
+        width: 100%
+    }
+    h2 {
+        position: relative;
+    }
+
+}
+@media (min-width:640px) {
+    h1 {
+        position: static;
+        width: 100%
+    }
+    footer {
+        position: relative;
+    }
+
+}
+
+
